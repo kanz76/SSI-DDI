@@ -1,4 +1,4 @@
-data/
+# data/
 output/cold_start/mr-gnn/epoch
 .vscode/*
 # !.vscode/settings.json
