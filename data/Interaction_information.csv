@@ -1,0 +1,87 @@
+Interaction type,Description,Subject,DDI type
+67,#Drug1 can cause a decrease in the absorption of #Drug2 resulting in a reduced serum concentration and potentially a decrease in efficacy.,2,DDI type 1
+18,#Drug1 can cause an increase in the absorption of #Drug2 resulting in an increased serum concentration and potentially a worsening of adverse effects.,1,DDI type 2
+13,The absorption of #Drug2 can be decreased when combined with #Drug1.,1,DDI type 3
+3,The bioavailability of #Drug2 can be decreased when combined with #Drug1.,1,DDI type 4
+62,The bioavailability of #Drug2 can be increased when combined with #Drug1.,1,DDI type 5
+47,The metabolism of #Drug2 can be decreased when combined with #Drug1.,2,DDI type 6
+4,The metabolism of #Drug2 can be increased when combined with #Drug1.,1,DDI type 7
+43,The protein binding of #Drug2 can be decreased when combined with #Drug1.,2,DDI type 8
+75,The serum concentration of #Drug2 can be decreased when it is combined with #Drug1.,1,DDI type 9
+73,The serum concentration of #Drug2 can be increased when it is combined with #Drug1.,2,DDI type 10
+77,The serum concentration of the active metabolites of #Drug2 can be increased when #Drug2 is used in combination with #Drug1.,1,DDI type 11
+11,The serum concentration of the active metabolites of #Drug2 can be reduced when #Drug2 is used in combination with #Drug1 resulting in a loss in efficacy.,1,DDI type 12
+70,The therapeutic efficacy of #Drug2 can be decreased when used in combination with #Drug1.,1,DDI type 13
+8,The therapeutic efficacy of #Drug2 can be increased when used in combination with #Drug1.,1,DDI type 14
+72,#Drug1 may decrease the excretion rate of #Drug2 which could result in a higher serum level.,2,DDI type 15
+65,#Drug1 may increase the excretion rate of #Drug2 which could result in a lower serum level and potentially a reduction in efficacy.,2,DDI type 16
+58,#Drug1 may decrease the cardiotoxic activities of #Drug2.,2,DDI type 17
+15,#Drug1 may increase the cardiotoxic activities of #Drug2.,1,DDI type 18
+44,#Drug1 may increase the central neurotoxic activities of #Drug2.,1,DDI type 19
+80,#Drug1 may increase the hepatotoxic activities of #Drug2.,2,DDI type 20
+57,#Drug1 may increase the nephrotoxic activities of #Drug2.,2,DDI type 21
+35,#Drug1 may increase the neurotoxic activities of #Drug2.,1,DDI type 22
+7,#Drug1 may increase the ototoxic activities of #Drug2.,2,DDI type 23
+45,#Drug1 may decrease effectiveness of #Drug2 as a diagnostic agent.,2,DDI type 24
+86,The risk of a hypersensitivity reaction to #Drug2 is increased when it is combined with #Drug1.,2,DDI type 25
+49,The risk or severity of adverse effects can be increased when #Drug1 is combined with #Drug2.,3,DDI type 26
+66,The risk or severity of bleeding can be increased when #Drug1 is combined with #Drug2.,3,DDI type 27
+50,The risk or severity of heart failure can be increased when #Drug2 is combined with #Drug1.,3,DDI type 28
+42,The risk or severity of hyperkalemia can be increased when #Drug1 is combined with #Drug2.,3,DDI type 29
+31,The risk or severity of hypertension can be increased when #Drug2 is combined with #Drug1.,3,DDI type 30
+56,The risk or severity of hypotension can be increased when #Drug1 is combined with #Drug2.,3,DDI type 31
+33,The risk or severity of QTc prolongation can be increased when #Drug1 is combined with #Drug2.,3,DDI type 32
+52,#Drug1 may decrease the analgesic activities of #Drug2.,2,DDI type 33
+12,#Drug1 may decrease the anticoagulant activities of #Drug2.,2,DDI type 34
+37,#Drug1 may decrease the antihypertensive activities of #Drug2.,2,DDI type 35
+26,#Drug1 may decrease the antiplatelet activities of #Drug2.,1,DDI type 36
+14,#Drug1 may decrease the bronchodilatory activities of #Drug2.,1,DDI type 37
+29,#Drug1 may decrease the diuretic activities of #Drug2.,1,DDI type 38
+17,#Drug1 may decrease the neuromuscular blocking activities of #Drug2.,1,DDI type 39
+76,#Drug1 may decrease the sedative activities of #Drug2.,1,DDI type 40
+61,#Drug1 may decrease the stimulatory activities of #Drug2.,2,DDI type 41
+5,#Drug1 may decrease the vasoconstricting activities of #Drug2.,1,DDI type 42
+22,#Drug1 may increase the adverse neuromuscular activities of #Drug2.,2,DDI type 43
+69,#Drug1 may increase the analgesic activities of #Drug2.,2,DDI type 44
+2,#Drug1 may increase the anticholinergic activities of #Drug2.,2,DDI type 45
+6,#Drug1 may increase the anticoagulant activities of #Drug2.,2,DDI type 46
+10,#Drug1 may increase the antihypertensive activities of #Drug2.,1,DDI type 47
+53,#Drug1 may increase the antiplatelet activities of #Drug2.,2,DDI type 48
+36,#Drug1 may increase the antipsychotic activities of #Drug2.,2,DDI type 49
+82,#Drug1 may increase the arrhythmogenic activities of #Drug2.,2,DDI type 50
+25,#Drug1 may increase the atrioventricular blocking (AV block) activities of #Drug2.,1,DDI type 51
+54,#Drug1 may increase the bradycardic activities of #Drug2.,1,DDI type 52
+46,#Drug1 may increase the bronchoconstrictory activities of #Drug2.,1,DDI type 53
+16,#Drug1 may increase the central nervous system depressant (CNS depressant) activities of #Drug2.,2,DDI type 54
+79,#Drug1 may increase the central nervous system depressant (CNS depressant) and hypertensive activities of #Drug2.,1,DDI type 55
+39,#Drug1 may increase the constipating activities of #Drug2.,1,DDI type 56
+28,#Drug1 may increase the dermatologic adverse activities of #Drug2.,2,DDI type 57
+74,#Drug1 may increase the fluid retaining activities of #Drug2.,1,DDI type 58
+51,#Drug1 may increase the hypercalcemic activities of #Drug2.,2,DDI type 59
+78,#Drug1 may increase the hyperglycemic activities of #Drug2.,2,DDI type 60
+68,#Drug1 may increase the hyperkalemic activities of #Drug2.,2,DDI type 61
+71,#Drug1 may increase the hypertensive activities of #Drug2.,2,DDI type 62
+24,#Drug1 may increase the hypocalcemic activities of #Drug2.,2,DDI type 63
+9,#Drug1 may increase the hypoglycemic activities of #Drug2.,2,DDI type 64
+83,#Drug1 may increase the hypokalemic activities of #Drug2.,1,DDI type 65
+55,#Drug1 may increase the hyponatremic activities of #Drug2.,2,DDI type 66
+60,#Drug1 may increase the hypotensive activities of #Drug2.,1,DDI type 67
+41,#Drug1 may increase the hypotensive and central nervous system depressant (CNS depressant) activities of #Drug2.,1,DDI type 68
+34,#Drug1 may increase the immunosuppressive activities of #Drug2.,1,DDI type 69
+63,#Drug1 may increase the myelosuppressive activities of #Drug2.,2,DDI type 70
+48,#Drug1 may increase the myopathic rhabdomyolysis activities of #Drug2.,2,DDI type 71
+27,#Drug1 may increase the neuroexcitatory activities of #Drug2.,1,DDI type 72
+21,#Drug1 may increase the neuromuscular blocking activities of #Drug2.,2,DDI type 73
+30,#Drug1 may increase the orthostatic hypotensive activities of #Drug2.,1,DDI type 74
+1,#Drug1 may increase the photosensitizing activities of #Drug2.,1,DDI type 75
+20,#Drug1 may increase the QTc-prolonging activities of #Drug2.,2,DDI type 76
+40,#Drug1 may increase the respiratory depressant activities of #Drug2.,2,DDI type 77
+32,#Drug1 may increase the sedative activities of #Drug2.,1,DDI type 78
+64,#Drug1 may increase the serotonergic activities of #Drug2.,2,DDI type 79
+23,#Drug1 may increase the stimulatory activities of #Drug2.,2,DDI type 80
+85,#Drug1 may increase the tachycardic activities of #Drug2.,1,DDI type 81
+81,#Drug1 may increase the thrombogenic activities of #Drug2.,2,DDI type 82
+59,#Drug1 may increase the ulcerogenic activities of #Drug2.,1,DDI type 83
+19,#Drug1 may increase the vasoconstricting activities of #Drug2.,2,DDI type 84
+38,#Drug1 may increase the vasodilatory activities of #Drug2.,2,DDI type 85
+84,#Drug1 may increase the vasopressor activities of #Drug2.,1,DDI type 86
