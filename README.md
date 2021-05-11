@@ -1,5 +1,6 @@
 # SSI-DDI
-Source code of ["Substructure-Substructure Interactions for Drug-Drug Interaction Prediction"]()
+Source code for ["Substructure-Substructure Interactions for Drug-Drug Interaction Prediction"]( https://doi.org/10.1093/bib/bbab133)  
+![Overview of SSI-DDI framework](Framework.png)  
 
  ## Implementation setup
 The versions are optional, we expect the code to work with latest versions as well.
