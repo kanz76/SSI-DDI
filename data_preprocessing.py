@@ -103,7 +103,6 @@ def get_mol_edge_list_and_feat_mtx(mol_graph):
     edge_list = torch.LongTensor([(b.GetBeginAtomIdx(), b.GetEndAtomIdx()) for b in mol_graph.GetBonds()])
     undirected_edge_list = torch.cat([edge_list, edge_list[:, [1, 0]]], dim=0) if len(edge_list) else edge_list
     
-    # assert TOTAL_ATOM_FEATS == features.shape[-1], "Expected atom n_features and retrived n_features not matching"
     return undirected_edge_list.T, features
 
 
@@ -123,8 +122,7 @@ ALL_DRUG_IDS, _ = zip(*drug_id_mol_graph_tup)
 ALL_DRUG_IDS = np.array(list(set(ALL_DRUG_IDS)))
 ALL_TRUE_H_WITH_TR = defaultdict(list)
 ALL_TRUE_T_WITH_HR = defaultdict(list)
-# I won't corrupt the relations
-# self.true_r_with_ht = defaultdict(list)
+
 FREQ_REL = defaultdict(int)
 ALL_H_WITH_R = defaultdict(dict)
 ALL_T_WITH_R = defaultdict(dict)
@@ -251,9 +249,7 @@ class DrugDataset(Dataset):
     def __normal_batch(self, h, t, r, neg_size):
         neg_size_h = 0
         neg_size_t = 0
-        # prob = self.tail_per_head[r] / (self.tail_per_head[r] + self.head_per_tail[r])
         prob = ALL_TAIL_PER_HEAD[r] / (ALL_TAIL_PER_HEAD[r] + ALL_HEAD_PER_TAIL[r])
-        # prob = 2
         for i in range(neg_size):
             if random.random() < prob:
                 neg_size_h += 1
@@ -264,7 +260,6 @@ class DrugDataset(Dataset):
                 self.__corrupt_tail(h, r, neg_size_t))  
 
 
-# Simple DrugDataLoaderWrapper to use the customized collate_fn
 class DrugDataLoader(DataLoader):
     def __init__(self, data, **kwargs):
         super().__init__(data, collate_fn=data.collate_fn, **kwargs)
